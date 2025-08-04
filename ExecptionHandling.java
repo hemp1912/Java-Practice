@@ -13,8 +13,6 @@ public class ExecptionHandling {
         int b=sc.nextInt();
         int result = a/b;
          System.out.println(result);
-
-
     }catch(ArithmeticException e){
         System.out.println("Arithmetic Exception: Cannot divide by zero.");
     }finally{
